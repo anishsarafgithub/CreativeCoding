@@ -1,0 +1,8 @@
+Prompt the user to input the height of the pyramid.
+If the height is not an integer or if the height is less than 1 or greater than 8, then prompt the user again.
+If the height entered is valid, then iterate the nested "for" loops.
+Iterate the outer "for" loop from i=0; i<height.
+Iterate the inner "for" loop from j=height-1; j>=0.
+In the inner loop, if (j>i), then " " will be printed, else "#" will be printed.
+After the inner loop is executed, then the line is changed.
+
